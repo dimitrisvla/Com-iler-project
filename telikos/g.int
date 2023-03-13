@@ -1,0 +1,21 @@
+0: begin block, fibonacci, _, _
+1: -, x, 1, T_1
+2: par, T_1, CV, _
+3: par, T_2, RET, _
+4: call, fibonacci, _, _
+5: -, x, 2, T_3
+6: par, T_3, CV, _
+7: par, T_4, RET, _
+8: call, fibonacci, _, _
+9: +, T_2, T_4, T_5
+10: retv, T_5, _, _
+11: halt, _, _, _
+12: end block, fibonacci, _, _
+13: begin block, fibonacci, _, _
+14: inp, x, _, _
+15: par, x, CV, _
+16: par, T_6, RET, _
+17: call, fibonacci, _, _
+18: out, T_6, _, _
+19: halt, _, _, _
+20: end block, fibonacci, _, _

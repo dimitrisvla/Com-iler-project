@@ -1,0 +1,14 @@
+
+program id3{
+    declare a, b;
+    
+    input(b);
+    input(a);
+
+    while (a > b){
+            a := a-2;
+        };
+    print(a);
+}
+.
+

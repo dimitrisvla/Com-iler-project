@@ -1,0 +1,27 @@
+0: begin block, func, _, _
+1: :=, 4, _, d
+2: :=, B, _, A
+3: :=, a, _, b
+4: +, c, d, T_1
+5: retv, T_1, _, _
+6: end block, func, _, _
+7: begin block, proc, _, _
+8: :=, 3, _, c
+9: out, A, _, _
+10: out, B, _, _
+11: par, T_2, RET, _
+12: call, func, _, _
+13: :=, T_2, _, B
+14: out, A, _, _
+15: out, B, _, _
+16: end block, proc, _, _
+17: begin block, finalCodeExample, _, _
+18: :=, 1, _, A
+19: :=, 2, _, B
+20: par, A, CV, _
+21: par, B, REF, _
+22: call, proc, _, _
+23: out, A, _, _
+24: out, B, _, _
+25: halt, _, _, _
+26: end block, finalCodeExample, _, _

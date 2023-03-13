@@ -1,0 +1,24 @@
+program id{
+    declare a, b,x;
+    function p(in k, inout l){
+        print(99999);
+        print(k);
+        print(l);
+        k:=k*10;
+        l:=11*l;
+        print(k);
+        print(l);
+        return(k);
+    }
+    
+    a:=9;
+    b:=10;
+    print(a);
+    print(b);
+
+    x := p(in a, inout b);
+    print(a);
+    print(x);
+    print(b);
+}
+.

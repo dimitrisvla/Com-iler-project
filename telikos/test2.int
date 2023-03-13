@@ -1,0 +1,27 @@
+0: begin block, p, _, _
+1: out, 99999, _, _
+2: out, k, _, _
+3: out, l, _, _
+4: *, k, 10, T_1
+5: :=, T_1, _, k
+6: *, 11, l, T_2
+7: :=, T_2, _, l
+8: out, k, _, _
+9: out, l, _, _
+10: retv, k, _, _
+11: end block, p, _, _
+12: begin block, id, _, _
+13: :=, 9, _, a
+14: :=, 10, _, b
+15: out, a, _, _
+16: out, b, _, _
+17: par, a, CV, _
+18: par, b, REF, _
+19: par, T_3, RET, _
+20: call, p, _, _
+21: :=, T_3, _, x
+22: out, a, _, _
+23: out, x, _, _
+24: out, b, _, _
+25: halt, _, _, _
+26: end block, id, _, _

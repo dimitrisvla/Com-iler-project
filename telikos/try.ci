@@ -1,0 +1,54 @@
+
+
+
+program id{
+    declare a, b;
+    declare a, b;
+    
+    function f(in x, inout x){
+        procedure p(){
+            declare a;
+            
+            function f1(){
+                input(x);
+                return (x+3-4);
+
+            }
+            
+            a:= a +f(in x+1, inout y);
+            a:=f(in x);
+            if( a < v and g <= f or not [ a <b] and [a <> g + 5]) {
+                a:=1+2
+            };
+            
+            incase
+            case (a>=b) a:=b+1;           
+            case (a=b) a:=b+1;
+           
+            ;
+        }
+    }
+    
+    procedure p2(in a, inout b, in c){
+    
+        while (a > b){
+            a:=a-2;
+        };
+        
+        switchcase
+            case (a=b) a:=b+1;           
+            case (a=b) a:=b+1;
+            default ;
+        ;
+        forcase
+            case (a=b) a:=b+1;           
+            case (a=b) a:=b+1;
+            default ;
+        ;
+        
+    }
+    
+    call p(in x, inout y);
+    print(x)
+}
+.

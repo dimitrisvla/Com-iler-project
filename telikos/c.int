@@ -1,0 +1,11 @@
+0: begin block, id3, _, _
+1: inp, b, _, _
+2: inp, a, _, _
+3: >, a, b, 5
+4: jump, _, _, 8
+5: -, a, 2, T_1
+6: :=, T_1, _, a
+7: jump, _, _, 3
+8: out, a, _, _
+9: halt, _, _, _
+10: end block, id3, _, _

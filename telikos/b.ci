@@ -1,0 +1,17 @@
+
+program id2
+{
+
+    declare a, b;
+    
+    input(a);
+    input(b);
+
+    if (a > b){
+        print(a);
+        };
+    print(b);
+
+}
+.
+

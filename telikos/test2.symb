@@ -1,0 +1,13 @@
+Current Symbol Matrix
+Start
+
+['p', 1, 28, [['k', 12, 'CV'], ['l', 16, 'REF'], ['T_1', 20], ['T_2', 24]]]
+['id', 0, 24, [['a', 12], ['b', 16], ['x', 20], ['p', 'func', 0, 28]]]
+End
+
+Current Symbol Matrix
+Start
+
+['id', 0, 28, [['a', 12], ['b', 16], ['x', 20], ['p', 'func', 0, 28], ['T_3', 24]]]
+End
+

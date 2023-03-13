@@ -1,0 +1,40 @@
+0: begin block, divides, _, _
+1: /, y, x, T_1
+2: *, T_1, x, T_2
+3: =, y, T_2, 5
+4: jump, _, _, 7
+5: retv, 1, _, _
+6: jump, _, _, 8
+7: retv, 0, _, _
+8: end block, divides, _, _
+9: begin block, isPrime, _, _
+10: :=, 2, _, i
+11: <, i, x, 13
+12: jump, _, _, 24
+13: par, i, CV, _
+14: par, x, CV, _
+15: par, T_3, RET, _
+16: call, divides, _, _
+17: =, T_3, 1, 19
+18: jump, _, _, 21
+19: retv, 0, _, _
+20: jump, _, _, 21
+21: +, i, 1, T_4
+22: :=, T_4, _, i
+23: jump, _, _, 11
+24: retv, 1, _, _
+25: end block, isPrime, _, _
+26: begin block, primes, _, _
+27: :=, 2, _, i
+28: <=, i, 30, 30
+29: jump, _, _, 38
+30: par, i, CV, _
+31: par, T_5, RET, _
+32: call, isPrime, _, _
+33: =, T_5, 1, 35
+34: jump, _, _, 37
+35: out, i, _, _
+36: jump, _, _, 37
+37: jump, _, _, 28
+38: halt, _, _, _
+39: end block, primes, _, _

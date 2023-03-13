@@ -1,0 +1,21 @@
+program id{
+    declare a, b, x;
+
+    a:=10;
+    b:=0;
+
+    input(x);
+
+    if(x = 5){
+        print(x);
+    }
+    else{
+        print(3-4);
+    };
+    while (a > b){
+        a:=a-2;
+        print(a)
+    };
+   
+}
+.

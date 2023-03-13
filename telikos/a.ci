@@ -1,0 +1,11 @@
+
+program id1{
+    declare a, b, c;
+
+    a := 200;
+    b := 7;
+    c := a*b;
+   
+}
+.
+

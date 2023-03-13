@@ -1,0 +1,21 @@
+Current Symbol Matrix
+Start
+
+['divides', 2, 28, [['x', 12, 'CV'], ['y', 16, 'CV'], ['T_1', 20], ['T_2', 24]]]
+['isPrime', 1, 20, [['x', 12, 'CV'], ['i', 16], ['divides', 'func', 0, 28]]]
+['primes', 0, 16, [['i', 12], ['isPrime', 'func', -100, -100]]]
+End
+
+Current Symbol Matrix
+Start
+
+['isPrime', 1, 28, [['x', 12, 'CV'], ['i', 16], ['divides', 'func', 0, 28], ['T_3', 20], ['T_4', 24]]]
+['primes', 0, 16, [['i', 12], ['isPrime', 'func', 9, 28]]]
+End
+
+Current Symbol Matrix
+Start
+
+['primes', 0, 20, [['i', 12], ['isPrime', 'func', 9, 28], ['T_5', 16]]]
+End
+

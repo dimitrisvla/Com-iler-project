@@ -1,0 +1,21 @@
+Current Symbol Matrix
+Start
+
+['func', 2, 20, [['d', 12], ['T_1', 16]]]
+['proc', 1, 24, [['a', 12, 'CV'], ['b', 16, 'REF'], ['c', 20], ['func', 'func', 0, 20]]]
+['finalCodeExample', 0, 20, [['A', 12], ['B', 16], ['proc', 'proc', -100, -100]]]
+End
+
+Current Symbol Matrix
+Start
+
+['proc', 1, 28, [['a', 12, 'CV'], ['b', 16, 'REF'], ['c', 20], ['func', 'func', 0, 20], ['T_2', 24]]]
+['finalCodeExample', 0, 20, [['A', 12], ['B', 16], ['proc', 'proc', 7, 28]]]
+End
+
+Current Symbol Matrix
+Start
+
+['finalCodeExample', 0, 20, [['A', 12], ['B', 16], ['proc', 'proc', 7, 28]]]
+End
+
